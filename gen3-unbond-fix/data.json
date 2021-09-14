@@ -1,0 +1,1394 @@
+[
+  {
+    "account": "7LguwRxxP1x2EhGfsybFemZZMsnFJZjWrHaUAt9xm3YGr9Hx",
+    "nirvana": true,
+    "gen2": {
+      "total": 56911,
+      "active": 56800,
+      "totalUnlocking": 111,
+      "unlocking": [
+        {
+          "value": 111,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 66717.15861127948,
+      "active": 66606.15861127948,
+      "difference": 111,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JZpnvsVW1P5HTr168zoqZK5qvTdWbGvq1fKNe39taZG9gAV",
+    "nirvana": true,
+    "gen2": {
+      "total": 11213.4978,
+      "active": 11000,
+      "totalUnlocking": 213.4978,
+      "unlocking": [
+        {
+          "value": 213.4978,
+          "era": 73
+        }
+      ]
+    },
+    "gen3": {
+      "total": 17744.15908923035,
+      "active": 17530.661289230353,
+      "difference": 213.49779999999737,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MBqPFCzHxoYbiPdFF5MFbR1aNN5G8MdnnjvCtiK9FjVq1cM",
+    "nirvana": true,
+    "gen2": {
+      "total": 516079.5519706017,
+      "active": 515879.5519706017,
+      "totalUnlocking": 200,
+      "unlocking": [
+        {
+          "value": 200,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 597869.7745656831,
+      "active": 597669.7745656831,
+      "difference": 200,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JTsjTj2v9NhVa7jJgQo8bfGv9Rc4tEHEVNyBAxaah4tf5gu",
+    "nirvana": true,
+    "gen2": {
+      "total": 12001,
+      "active": 12000,
+      "totalUnlocking": 1,
+      "unlocking": [
+        {
+          "value": 1,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 13424.877487872374,
+      "active": 13423.877487872374,
+      "difference": 1,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7LnK5L78yWoFZKcbetiTsL9cJfWkm7ztH4yJPxEoSDaXoSLM",
+    "nirvana": true,
+    "gen2": {
+      "total": 31000,
+      "active": 30000,
+      "totalUnlocking": 1000,
+      "unlocking": [
+        {
+          "value": 1000,
+          "era": 43
+        }
+      ]
+    },
+    "gen3": {
+      "total": 39084.74293781928,
+      "active": 38084.74293781928,
+      "difference": 1000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7NfmvR2gkDCX77kYTob1rFM3b4MVYWkcBhPgJvmbQhDvgouR",
+    "nirvana": true,
+    "gen2": {
+      "total": 6600,
+      "active": 5600,
+      "totalUnlocking": 1000,
+      "unlocking": [
+        {
+          "value": 1000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 6600,
+      "active": 5600,
+      "difference": 1000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7LDpiSKg8EFHEazSVovKALn3HyTiuWwu2gvzfh6SWKpMpKRT",
+    "nirvana": true,
+    "gen2": {
+      "total": 33446,
+      "active": 33346,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 36601.25714727188,
+      "active": 36501.25714727188,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JxYt6VLBoAW44V2sVKHqWjZAr7cuXv4NP581ZfgeQPtRSwe",
+    "nirvana": true,
+    "gen2": {
+      "total": 159517.60533183828,
+      "active": 59517.60533183826,
+      "totalUnlocking": 100000,
+      "unlocking": [
+        {
+          "value": 100000,
+          "era": 34
+        }
+      ]
+    },
+    "gen3": {
+      "total": 162388.1719689118,
+      "active": 62388.17196891179,
+      "difference": 100000.00000000001,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7K224SoHy1jDkGjsnm3KM9cb7bQ51MhFUcxgDBabD7jYxuFB",
+    "nirvana": true,
+    "gen2": {
+      "total": 1421.567966790388,
+      "active": 821.567966790388,
+      "totalUnlocking": 600,
+      "unlocking": [
+        {
+          "value": 600,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 12391.92758393926,
+      "active": 11791.92758393926,
+      "difference": 600,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JU7pzbJXP58Fy5C5BBi6nqzzkEUYCJqUprB2kyVHoSvGDBM",
+    "nirvana": true,
+    "gen2": {
+      "total": 4641.428836998192,
+      "active": 4541.428836998192,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 5063.744430180244,
+      "active": 4963.744430180244,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KZaTmriQDAcKAF9xbGnxQQksseZSzcPTX3BdkKxPwzF7Y8B",
+    "nirvana": true,
+    "gen2": {
+      "total": 63923.788702093865,
+      "active": 21923.788702093865,
+      "totalUnlocking": 42000,
+      "unlocking": [
+        {
+          "value": 42000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 63923.788702093865,
+      "active": 0.000002093862,
+      "difference": 63923.788700000005,
+      "totalUnlocking": 21923.7887,
+      "unlocking": [
+        {
+          "value": 21923.7887,
+          "era": 67
+        }
+      ]
+    }
+  },
+  {
+    "account": "7NtvrLvVyNNRfPYxnN9hPce5xUPnTDKGrDMK81iN6imMd2Xr",
+    "nirvana": true,
+    "gen2": {
+      "total": 110,
+      "active": 0,
+      "totalUnlocking": 110,
+      "unlocking": [
+        {
+          "value": 110,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 110,
+      "active": 0,
+      "difference": 110,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7L6nKAJnEAMmnvi3hvpHmhTBNEdmVvwEmo268a47kmSkv7xU",
+    "nirvana": true,
+    "gen2": {
+      "total": 3232362.7483,
+      "active": 1732362.7483,
+      "totalUnlocking": 1500000,
+      "unlocking": [
+        {
+          "value": 1500000,
+          "era": 58
+        }
+      ]
+    },
+    "gen3": {
+      "total": 3349618.1319771134,
+      "active": 1849618.131977114,
+      "difference": 1499999.9999999995,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7L3XdGKezUqfhA8HNue1uLkebVS3JyumDaceLn3menEzvqhq",
+    "nirvana": true,
+    "gen2": {
+      "total": 100,
+      "active": 0,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 100,
+      "active": 0,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KsQop52xUGEVpEm9XEZ4PmZpnG5duzfdstN5HyS8ujkPQvp",
+    "nirvana": true,
+    "gen2": {
+      "total": 19000,
+      "active": 0,
+      "totalUnlocking": 19000,
+      "unlocking": [
+        {
+          "value": 19000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 19000,
+      "active": 0,
+      "difference": 19000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KViB1GXCnzMWevjkvuEo5UdY6BrPxfFRRiUtryTX55QUe7Y",
+    "nirvana": true,
+    "gen2": {
+      "total": 5023.006775989521,
+      "active": 3023.006775989521,
+      "totalUnlocking": 2000,
+      "unlocking": [
+        {
+          "value": 2000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 7160.912537003279,
+      "active": 5160.912537003279,
+      "difference": 2000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7PDM4fXLvYqPqgCGQ8GNkgmcRA642qfbrJf47NLfkk63NNTf",
+    "nirvana": true,
+    "gen2": {
+      "total": 14000,
+      "active": 1000,
+      "totalUnlocking": 13000,
+      "unlocking": [
+        {
+          "value": 13000,
+          "era": 76
+        }
+      ]
+    },
+    "gen3": {
+      "total": 14000,
+      "active": 0,
+      "difference": 14000,
+      "totalUnlocking": 1000,
+      "unlocking": [
+        {
+          "value": 1000,
+          "era": 88
+        }
+      ]
+    }
+  },
+  {
+    "account": "7NakBh7FhckZX63La4s4FSszNRPXryRuuyP6mfgokpT8abZf",
+    "nirvana": true,
+    "gen2": {
+      "total": 17356.5287377819,
+      "active": 16003.3496377819,
+      "totalUnlocking": 1353.1791,
+      "unlocking": [
+        {
+          "value": 1253.1791,
+          "era": 672
+        },
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 20953.02094104101,
+      "active": 19599.84184104101,
+      "difference": 1353.1791000000012,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MfkKsxnzh53NkqKXM4MdHmHW8XPVoXG4Vz26YTyyb27CtP8",
+    "nirvana": true,
+    "gen2": {
+      "total": 9770.9946,
+      "active": 8500,
+      "totalUnlocking": 1270.9946,
+      "unlocking": [
+        {
+          "value": 270.9946,
+          "era": 672
+        },
+        {
+          "value": 1000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 13683.005763034917,
+      "active": 12412.011163034917,
+      "difference": 1270.9946,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JvHmtStMGkeAHMu37i13wNJixRU7u4SXQisLZgSo6DkuriW",
+    "nirvana": true,
+    "gen2": {
+      "total": 19547.329123087613,
+      "active": 19507.329123087613,
+      "totalUnlocking": 40,
+      "unlocking": [
+        {
+          "value": 40,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 22237.67649745501,
+      "active": 22197.67649745501,
+      "difference": 40,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7Hgu4Mqe6mREf9GxqT4sdsY7HPxZfabwCWAqwKdsDkNeHins",
+    "nirvana": true,
+    "gen2": {
+      "total": 10984.909878723349,
+      "active": 1984.909878723348,
+      "totalUnlocking": 9000,
+      "unlocking": [
+        {
+          "value": 9000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 12182.598596253849,
+      "active": 3152.598596253848,
+      "difference": 9030,
+      "totalUnlocking": 30,
+      "unlocking": [
+        {
+          "value": 30,
+          "era": 55
+        }
+      ]
+    }
+  },
+  {
+    "account": "7LaxSY74L4evKkqW9neQnd5aeAfu1mHmzmXTJvjY4mbHFRzG",
+    "nirvana": true,
+    "gen2": {
+      "total": 69615.41730341098,
+      "active": 69095.41730341098,
+      "totalUnlocking": 520,
+      "unlocking": [
+        {
+          "value": 520,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 76059.17246016745,
+      "active": 75539.17246016745,
+      "difference": 520,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MKgyPUU4tX69bPaKpQ8kTXXu7TWUx77c6JRfdGvrUfAb8CC",
+    "nirvana": true,
+    "gen2": {
+      "total": 34110,
+      "active": 110,
+      "totalUnlocking": 34000,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        },
+        {
+          "value": 33800,
+          "era": 672
+        },
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 41588.768630954466,
+      "active": 7588.768630954461,
+      "difference": 34000.00000000001,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7Jvh3n8AojaysgzhcehphC4NSdYYjm6tmgVnvEUmJS9NRHU8",
+    "nirvana": true,
+    "gen2": {
+      "total": 40000,
+      "active": 0,
+      "totalUnlocking": 40000,
+      "unlocking": [
+        {
+          "value": 40000,
+          "era": 38
+        }
+      ]
+    },
+    "gen3": {
+      "total": 41077.14255506947,
+      "active": 1077.14255506947,
+      "difference": 40000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7LTtayYqMBHjD6Zusf45piB6wvsywvtdDT6qc1K5kVPyXEdq",
+    "nirvana": true,
+    "gen2": {
+      "total": 199964.32189780957,
+      "active": 99963.93919780957,
+      "totalUnlocking": 100000.3827,
+      "unlocking": [
+        {
+          "value": 100000.3827,
+          "era": 34
+        }
+      ]
+    },
+    "gen3": {
+      "total": 203878.19165689364,
+      "active": 103877.80895689361,
+      "difference": 100000.38270000003,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MQCjxctaUFbq2T2dNANPeND4Do2Psd5UZNy3wzUycHCiDSK",
+    "nirvana": true,
+    "gen2": {
+      "total": 7500,
+      "active": 0,
+      "totalUnlocking": 7500,
+      "unlocking": [
+        {
+          "value": 7500,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 7500,
+      "active": 0,
+      "difference": 7500,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JsSmd1S8deD4AXRrRxuWn9gLh9798Kxh9kdTt9yKRUtPoYt",
+    "nirvana": true,
+    "gen2": {
+      "total": 400,
+      "active": 300,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 57
+        }
+      ]
+    },
+    "gen3": {
+      "total": 156144.54415510184,
+      "active": 156044.54415510184,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JKntRGLQkmHqQFwn9ZzVNAK8wpSGLc1qwxmEq1SRW4ermEa",
+    "nirvana": true,
+    "gen2": {
+      "total": 51657.69849715562,
+      "active": 51656.72619715562,
+      "totalUnlocking": 0.9723,
+      "unlocking": [
+        {
+          "value": 0.9723,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 60222.803912747906,
+      "active": 60221.831612747905,
+      "difference": 0.9723000000012689,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JkLqCvk4SgzAVbjpjCjHWFZTH9odGbtLYxaSpfpX8curQ5H",
+    "nirvana": true,
+    "gen2": {
+      "total": 65650,
+      "active": 64650,
+      "totalUnlocking": 1000,
+      "unlocking": [
+        {
+          "value": 1000,
+          "era": 34
+        }
+      ]
+    },
+    "gen3": {
+      "total": 74877.71551255221,
+      "active": 73877.71551255221,
+      "difference": 1000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JsExiFVx39YBjKExT9396kKopbYKi7mtLBhwwfZLtNwKz1o",
+    "nirvana": true,
+    "gen2": {
+      "total": 86798.09223702138,
+      "active": 86598.09223702138,
+      "totalUnlocking": 200,
+      "unlocking": [
+        {
+          "value": 200,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 98644.91821076935,
+      "active": 98444.91821076935,
+      "difference": 200,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KL5S7xaw6jHhXCTuD6dAbkK4P1guaJne491BAWB1ZRuHPtr",
+    "nirvana": true,
+    "gen2": {
+      "total": 21000,
+      "active": 0,
+      "totalUnlocking": 21000,
+      "unlocking": [
+        {
+          "value": 21000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 21100,
+      "active": 0,
+      "difference": 21100,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 41
+        }
+      ]
+    }
+  },
+  {
+    "account": "7KTRMcVntr11tvxbuCLby5sEt1Y8v2XhbE7iYZtCmxHsRoAp",
+    "nirvana": true,
+    "gen2": {
+      "total": 7500,
+      "active": 6000,
+      "totalUnlocking": 1500,
+      "unlocking": [
+        {
+          "value": 1500,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 9119.5237765481,
+      "active": 7619.523776548099,
+      "difference": 1500.000000000001,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KGg8iN5vYoczPhWsF4wxyLU1QdQJWZyvBHPL9NpFd4ykgXA",
+    "nirvana": true,
+    "gen2": {
+      "total": 38750,
+      "active": 38657,
+      "totalUnlocking": 93,
+      "unlocking": [
+        {
+          "value": 93,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 45844.52402076193,
+      "active": 45751.52402076193,
+      "difference": 93,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KUEG4cvnTuksFVAT69EQP9iDENfqLwqaseGbMcpC83zwfDq",
+    "nirvana": true,
+    "gen2": {
+      "total": 6000,
+      "active": 0,
+      "totalUnlocking": 6000,
+      "unlocking": [
+        {
+          "value": 99,
+          "era": 672
+        },
+        {
+          "value": 5901,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 6000,
+      "active": 0,
+      "difference": 6000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MGgWRH8wFHziJLamKqAUrHS5GeKPFTKvuqu2fHfux6uwqPF",
+    "nirvana": true,
+    "gen2": {
+      "total": 195,
+      "active": 0.0001,
+      "totalUnlocking": 194.9999,
+      "unlocking": [
+        {
+          "value": 194.9999,
+          "era": 50
+        }
+      ]
+    },
+    "gen3": {
+      "total": 12256.598139894579,
+      "active": 12061.598239894578,
+      "difference": 194.9999000000007,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MiMqLhpM2MyEEQEGX45E9tWHX7LTwK2HsJCgHsTinMJeKY5",
+    "nirvana": true,
+    "gen2": {
+      "total": 165804.96433368613,
+      "active": 104.964333686142,
+      "totalUnlocking": 165700,
+      "unlocking": [
+        {
+          "value": 165700,
+          "era": 35
+        }
+      ]
+    },
+    "gen3": {
+      "total": 165804.96433368613,
+      "active": 104.964333686142,
+      "difference": 165700,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JbvNzXuVQm4MH1e7Wrf5eF2iGLakNdfFKrKe3ggj8JSypbq",
+    "nirvana": true,
+    "gen2": {
+      "total": 20150,
+      "active": 20050,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 22783.74968333937,
+      "active": 22683.74968333937,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7HqJULiUtMV6wyy3qXvY7nbVLZW8XcoaDU7s6L79z3fKM2Zf",
+    "nirvana": true,
+    "gen2": {
+      "total": 20445.107131483303,
+      "active": 20345.107131483303,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 61
+        }
+      ]
+    },
+    "gen3": {
+      "total": 32103.62043862996,
+      "active": 32003.62043862996,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7M15etRJbep6isMFZUUNKUjjrpnTydW9WmaTdsUforsWno5K",
+    "nirvana": true,
+    "gen2": {
+      "total": 22874,
+      "active": 0,
+      "totalUnlocking": 22874,
+      "unlocking": [
+        {
+          "value": 22874,
+          "era": 36
+        }
+      ]
+    },
+    "gen3": {
+      "total": 25416.100998374117,
+      "active": 2542.100998374117,
+      "difference": 22874,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MpahXuesugMcJQHWjwrg79afkwiVLWdrzsZKhhsSmzokgug",
+    "nirvana": true,
+    "gen2": {
+      "total": 2653.332310020431,
+      "active": 2153.332310020431,
+      "totalUnlocking": 500,
+      "unlocking": [
+        {
+          "value": 500,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 2807.751111540737,
+      "active": 2307.751111540737,
+      "difference": 500,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MStThEUx6VVXWGwpp4UMSoehgojyPvu6t5yrkFmKMPLB6QN",
+    "nirvana": true,
+    "gen2": {
+      "total": 56878.533594667984,
+      "active": 128.533594667984,
+      "totalUnlocking": 56750,
+      "unlocking": [
+        {
+          "value": 56750,
+          "era": 29
+        }
+      ]
+    },
+    "gen3": {
+      "total": 56751.077646186925,
+      "active": 1.077646186928,
+      "difference": 56750,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7Hnr9uHckVyBiyxbRZxKWsspM3u2MsGvhEqVdVJSTWjoGNgt",
+    "nirvana": true,
+    "gen2": {
+      "total": 50780.8567,
+      "active": 0,
+      "totalUnlocking": 50780.8567,
+      "unlocking": [
+        {
+          "value": 50780.8567,
+          "era": 34
+        }
+      ]
+    },
+    "gen3": {
+      "total": 50780.8567,
+      "active": 0,
+      "difference": 50780.8567,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JTSL7V5hzxt7K97TJJkMSQ3cptf9Xf577DPqheRg32XrHKo",
+    "nirvana": true,
+    "gen2": {
+      "total": 11299.8783,
+      "active": 5799,
+      "totalUnlocking": 5500.8783,
+      "unlocking": [
+        {
+          "value": 5500.8783,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 13289.538937814288,
+      "active": 7788.660637814289,
+      "difference": 5500.878299999999,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7L3uHsv8rHMhYRN2Nb7jxau1MnaWsqJM3tynqaEz8a2Lyama",
+    "nirvana": true,
+    "gen2": {
+      "total": 29404.61587959647,
+      "active": 29394.61587959647,
+      "totalUnlocking": 10,
+      "unlocking": [
+        {
+          "value": 10,
+          "era": 70
+        }
+      ]
+    },
+    "gen3": {
+      "total": 33136.955834004344,
+      "active": 33126.955834004344,
+      "difference": 10,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7NASzTfJ7nQ5hqY7U646GAKSuZ8otMAxix6HMKA1P9kJUdmo",
+    "nirvana": true,
+    "gen2": {
+      "total": 100,
+      "active": 0,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 100
+        }
+      ]
+    },
+    "gen3": {
+      "total": 8458.497607502586,
+      "active": 8358.497607502586,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7P82QVUsAC3r5gAuvwU1351x4NexSdbLrgwHdCVzk9J8kzTx",
+    "nirvana": true,
+    "gen2": {
+      "total": 31950.183793719098,
+      "active": 26850.183793719098,
+      "totalUnlocking": 5100,
+      "unlocking": [
+        {
+          "value": 5100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 36893.955266664336,
+      "active": 31793.95526666434,
+      "difference": 5099.999999999996,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7LZ7AvuB5nrKjdcdgMu16hMe7sMQRtt5JnPujGzYTvkDrcfW",
+    "nirvana": true,
+    "gen2": {
+      "total": 3907.256900887999,
+      "active": 3807.256900887999,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 103
+        }
+      ]
+    },
+    "gen3": {
+      "total": 4345.52556988876,
+      "active": 4245.52556988876,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JqXxuXwiUnZWK4uws7JonjFWJSmn7BptaBnr3jdtY28QVUD",
+    "nirvana": true,
+    "gen2": {
+      "total": 16212.318873694352,
+      "active": 8212.31887369435,
+      "totalUnlocking": 8000,
+      "unlocking": [
+        {
+          "value": 8000,
+          "era": 32
+        }
+      ]
+    },
+    "gen3": {
+      "total": 19035.094373554337,
+      "active": 11000.094373554335,
+      "difference": 8035.000000000002,
+      "totalUnlocking": 35,
+      "unlocking": [
+        {
+          "value": 35,
+          "era": 53
+        }
+      ]
+    }
+  },
+  {
+    "account": "7KVvfi4w6qghcwbp7tjFAqiTmxZqeYP2rgk4eo8Sn5DbPYwQ",
+    "nirvana": true,
+    "gen2": {
+      "total": 10000,
+      "active": 0,
+      "totalUnlocking": 10000,
+      "unlocking": [
+        {
+          "value": 10000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 10000,
+      "active": 0,
+      "difference": 10000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7HpxWXkPjMcBGiCZTfKccf9J8udYdqYEiHEgmFVjJxzjCjXF",
+    "nirvana": true,
+    "gen2": {
+      "total": 7248.479833981277,
+      "active": 7148.479833981277,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 9259.762617457118,
+      "active": 9159.762617457118,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7LTDRiDNqvUsk7zNt3yuHV5paCFaq38SfEZpG1AKRYndR3nD",
+    "nirvana": true,
+    "gen2": {
+      "total": 2969664.5905906437,
+      "active": 2969564.5905906437,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 72
+        }
+      ]
+    },
+    "gen3": {
+      "total": 3263834.2091423757,
+      "active": 3263734.2091423757,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7NSGubcW8Yobh1RMVKJs2UtBRnVGVztwaYWunqvZRwuahuLQ",
+    "nirvana": true,
+    "gen2": {
+      "total": 10000,
+      "active": 0,
+      "totalUnlocking": 10000,
+      "unlocking": [
+        {
+          "value": 10000,
+          "era": 37
+        }
+      ]
+    },
+    "gen3": {
+      "total": 11727.39128332193,
+      "active": 1727.39128332193,
+      "difference": 10000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7J6uVJus22YfgXZmomh9BG95S6uuycHzTJrG72YK2gb1H94g",
+    "nirvana": true,
+    "gen2": {
+      "total": 2638.876030906182,
+      "active": 138.876030906182,
+      "totalUnlocking": 2500,
+      "unlocking": [
+        {
+          "value": 2500,
+          "era": 33
+        }
+      ]
+    },
+    "gen3": {
+      "total": 2640.119774853942,
+      "active": 1.243774853942,
+      "difference": 2638.876,
+      "totalUnlocking": 138.876,
+      "unlocking": [
+        {
+          "value": 138.876,
+          "era": 55
+        }
+      ]
+    }
+  },
+  {
+    "account": "7K9Wet7MH6pBZeBx2x6JKecsqDYKH9Q6ZQZAAoNxtUZyWF7w",
+    "nirvana": true,
+    "gen2": {
+      "total": 17250,
+      "active": 17200,
+      "totalUnlocking": 50,
+      "unlocking": [
+        {
+          "value": 50,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 23250,
+      "active": 23200,
+      "difference": 50,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7NG1JHZHZrSY3WFsUGeLSb4jkNdsxXWjhrRXje2NNfQ7EN5r",
+    "nirvana": true,
+    "gen2": {
+      "total": 909.0778,
+      "active": 0,
+      "totalUnlocking": 909.0778,
+      "unlocking": [
+        {
+          "value": 909.0778,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 909.0778,
+      "active": 0,
+      "difference": 909.0778,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7J1RFJWco7ijC5rpNxzDFYHTpKosLCLpX4yDs3JscvDET8vo",
+    "nirvana": true,
+    "gen2": {
+      "total": 140,
+      "active": 99.99,
+      "totalUnlocking": 40.01,
+      "unlocking": [
+        {
+          "value": 40.01,
+          "era": 34
+        }
+      ]
+    },
+    "gen3": {
+      "total": 7124.917942556558,
+      "active": 7084.907942556558,
+      "difference": 40.01000000000022,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7JEMs6K4kEahdS7qiehY82V2bdmr3ra6WWkinAMkpLaatfZh",
+    "nirvana": true,
+    "gen2": {
+      "total": 203569.45971914724,
+      "active": 198569.45971914724,
+      "totalUnlocking": 5000,
+      "unlocking": [
+        {
+          "value": 5000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 227429.07585323093,
+      "active": 222429.07585323093,
+      "difference": 5000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7Nae5RyjpMPRkV32cVKtHWNnFwvGKWoR1tHfpBBCe3TyU1up",
+    "nirvana": true,
+    "gen2": {
+      "total": 206450,
+      "active": 0,
+      "totalUnlocking": 206450,
+      "unlocking": [
+        {
+          "value": 206450,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 206450,
+      "active": 0,
+      "difference": 206450,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7Kx1e943MYeG95hnxCQjSieh9SN81Vd56V9CKeEQ3B3BEgQA",
+    "nirvana": true,
+    "gen2": {
+      "total": 1000,
+      "active": 0,
+      "totalUnlocking": 1000,
+      "unlocking": [
+        {
+          "value": 1000,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 1000,
+      "active": 0,
+      "difference": 1000,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7MVjxyyvg4rcp4qcnKBenp6KPCL3MUK9krthZreHu6YevHb1",
+    "nirvana": true,
+    "gen2": {
+      "total": 80212.69151558995,
+      "active": 106.720615589952,
+      "totalUnlocking": 80105.9709,
+      "unlocking": [
+        {
+          "value": 80105.9709,
+          "era": 39
+        }
+      ]
+    },
+    "gen3": {
+      "total": 81450.37706816393,
+      "active": 1344.406168163934,
+      "difference": 80105.9709,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  },
+  {
+    "account": "7KTNsPzWzaMJWqQpXx3CxRd1aDfUyginHNN5DwZPL1pjJyHa",
+    "nirvana": true,
+    "gen2": {
+      "total": 19113.198393865157,
+      "active": 19013.198393865157,
+      "totalUnlocking": 100,
+      "unlocking": [
+        {
+          "value": 100,
+          "era": 672
+        }
+      ]
+    },
+    "gen3": {
+      "total": 21334.714537027932,
+      "active": 21234.714537027932,
+      "difference": 100,
+      "totalUnlocking": 0,
+      "unlocking": []
+    }
+  }
+]

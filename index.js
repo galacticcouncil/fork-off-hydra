@@ -51,8 +51,8 @@ let prefixes = [
 const skippedModulesPrefix = [
   "System",
   "Session",
-  "Babe",
-  "Grandpa",
+"Babe",
+"Grandpa",
   "Instance1Collective",
   "PhragmenElection",
   "ElectionProviderMultiPhase",
@@ -139,7 +139,7 @@ async function main() {
   execSync(
     binaryPath + " build-spec --chain=lerna --raw > " + originalSpecPath
   );
-  execSync(binaryPath + " build-spec --chain=lerna --raw > " + forkedSpecPath);
+  execSync(binaryPath + " build-spec --chain=dev --raw > " + forkedSpecPath);
 
   let storage = JSON.parse(fs.readFileSync(storagePath, "utf8"));
   let originalSpec = JSON.parse(fs.readFileSync(originalSpecPath, "utf8"));
@@ -192,6 +192,11 @@ async function main() {
   forkedSpec.genesis.raw.top[
     "0x26aa394eea5630e07c48ae0c9558cef7c21aab032aaa6e946ca50ad39ab66603"
   ] = "0x01";
+
+  // SUDO KEY TO ALICE
+  forkedSpec.genesis.raw.top[
+    "0x5c0d1176a568c1f92944340dbfed9e9c530ebca703c85910e7164cb7d1c9e47b"
+    ] = "0xd43593c715fdd31c61141abd04a99fd6822c8558854ccde39a5684e7a56da27d";
 
   fs.writeFileSync(forkedSpecPath, JSON.stringify(forkedSpec, null, 4));
 

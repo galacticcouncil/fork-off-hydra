@@ -1,0 +1,20 @@
+{
+  "name": "gen3-unbound-fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "send": "node index.js send"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^4.16.2",
+    "@polkadot/types": "^4.17.1",
+    "@polkadot/util": "^6.5.1",
+    "@polkadot/util-crypto": "^6.5.1",
+    "bn.js": "^4.12.0",
+    "dotenv": "^10.0.0"
+  }
+}
