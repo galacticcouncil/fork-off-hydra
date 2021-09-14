@@ -59,6 +59,7 @@ const skippedModulesPrefix = [
   "Treasury",
   "GrandpaFinality",
   "FinalityTracker",
+  "Authorship"
 ];
 
 async function main() {
@@ -219,7 +220,7 @@ async function fetchChunks(prefix, levelsRemaining, stream) {
     for (let i = 0; i < 256; i++) {
       promises.push(
         fetchChunks(
-          prefix + i.toString(16).padStart(2 * chunksLevel, "0"),
+          prefix + i.toString(16).padStart(2 , "0"),
           levelsRemaining - 1,
           stream
         )
@@ -229,7 +230,7 @@ async function fetchChunks(prefix, levelsRemaining, stream) {
   } else {
     for (let i = 0; i < 256; i++) {
       await fetchChunks(
-        prefix + i.toString(16).padStart(2 * chunksLevel, "0"),
+        prefix + i.toString(16).padStart(2 , "0"),
         levelsRemaining - 1,
         stream
       );
