@@ -47,13 +47,17 @@ async function main() {
     const locks = await api.query.balances.locks(account);
     const lock = locks.find(({id}) => stakingLock === id.toHex());
     const newAmount = lock.amount.sub(unlocking);
+    console.log(`${account} unlocks ${totalUnlocking} HDX`);
     assert(!newAmount.isNeg(), 'negative locked balance');
     const updatedLock = api.registry.createType('BalanceLock', [
       stakingLock,
       api.registry.createType('Balance', newAmount),
       lock.reasons
     ]);
-    const updatedLocks = [updatedLock, ...locks.filter(({id}) => stakingLock !== id.toHex())];
+    const updatedLocks = locks.filter(({id}) => stakingLock !== id.toHex());
+    if (!newAmount.isZero()) {
+      updatedLocks.push(updatedLock);
+    }
     return [
       api.query.balances.locks.key(account),
       api.registry.createType('Vec<BalanceLock>', updatedLocks).toHex()
