@@ -7,7 +7,7 @@ This script allows bootstrapping a new substrate chain with the current state of
 1. Clone this repository and install dependencies
 
     ```bash
-    git clone https://github.com/maxsam4/fork-off-substrate.git
+    git clone https://github.com/galacticcouncil/fork-off-substrate.git
     cd fork-off-substrate
     npm i
     ```
