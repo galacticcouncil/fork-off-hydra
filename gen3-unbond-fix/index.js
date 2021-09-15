@@ -58,11 +58,13 @@ async function main() {
 
   const createStorageUpdate = async ({account, gen2: {totalUnlocking}}) => {
     const unlockingGen2 = hdxToBN(totalUnlocking);
-    const [locks, currentlyLocked] = await Promise.all([
+    const [locks, ledger, currentlyLocked] = await Promise.all([
       api.query.balances.locks(account),
+      api.query.staking.ledger(account).then(l => l.unwrap()),
       currentlyBondedAndUnlocking(account)
     ]);
     const lock = locks.find(({id}) => stakingLock === id.toHex());
+    assert(lock.amount.eq(ledger.total.toBn()), 'lock and ledger inconsistent');
     const newAmount = lock.amount.sub(unlockingGen2);
     console.log(`${account} unlocks ${totalUnlocking} HDX`);
     assert(newAmount.eq(currentlyLocked), 'inconsistent locked value in ' + account);
@@ -77,12 +79,18 @@ async function main() {
       updatedLocks.push(updatedLock);
     }
     return [
-      api.query.balances.locks.key(account),
-      api.registry.createType('Vec<BalanceLock>', updatedLocks).toHex()
+      [
+        api.query.balances.locks.key(account),
+        api.registry.createType('Vec<BalanceLock>', updatedLocks).toHex()
+      ],
+      [
+        api.query.staking.ledger.key(account),
+        api.registry.createType('Option<StakingLedger>', {...ledger, total: newAmount}).toHex()
+      ]
     ];
   };
 
-  const storageUpdates = await Promise.all(data.map(createStorageUpdate));
+  const storageUpdates = (await Promise.all(data.map(createStorageUpdate))).flat(1);
 
   const json = JSON.stringify(storageUpdates.reduce((j, [k, v]) => ({[k]: v, ...j}), {}), null, 2);
   console.log('storage updates generated');
