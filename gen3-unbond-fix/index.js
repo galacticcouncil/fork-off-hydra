@@ -12,12 +12,15 @@ const ACCOUNT_SECRET = process.env.ACCOUNT_SECRET || "//Alice";
 const RPC = process.env.RPC_SERVER || "ws://127.0.0.1:9944";
 
 const hdxToBN = (hdx) => {
-  const n = Math.floor(hdx);
-  const r = Math.floor((hdx - n) * 10 ** 12);
+  const n = Math.trunc(hdx);
+  const d = (hdx.toString().split('.')[1] || []).length;
+  const r = Number((hdx - n).toFixed(d)) * 10 ** 12;
   return new BN(n).mul(new BN(10).pow(new BN(12))).add(new BN(r));
 };
 
 assert(111.111 === hdxToBN(111.111).toNumber() / 10 ** 12, 'wrong number conversion');
+assert(1270.9946 === hdxToBN(1270.9946).toNumber() / 10 ** 12, 'wrong number conversion');
+assert(new BN('100000382700000000').eq(hdxToBN(100000.3827)), 'wrong number conversion');
 
 const hdxAddress = (pubKey) => encodeAddress(pubKey, 63);
 
@@ -40,14 +43,29 @@ async function main() {
   const from = keyring.addFromUri(ACCOUNT_SECRET);
   console.log("sudo account:", hdxAddress(from.addressRaw));
 
+  const currentlyBondedAndUnlocking = async account => {
+    const ledger = await api.query.staking.ledger(account);
+    if (ledger.isSome) {
+      const {active, unlocking} = ledger.unwrap();
+      const totalUnlocking = unlocking.reduce((a, {value}) => value.toBn().add(a), new BN(0));
+      return active.toBn().add(totalUnlocking);
+    } else {
+      return new BN(0);
+    }
+  }
+
   const stakingLock = '0x7374616b696e6720';
 
   const createStorageUpdate = async ({account, gen2: {totalUnlocking}}) => {
-    const unlocking = hdxToBN(totalUnlocking);
-    const locks = await api.query.balances.locks(account);
+    const unlockingGen2 = hdxToBN(totalUnlocking);
+    const [locks, currentlyLocked] = await Promise.all([
+      api.query.balances.locks(account),
+      currentlyBondedAndUnlocking(account)
+    ]);
     const lock = locks.find(({id}) => stakingLock === id.toHex());
-    const newAmount = lock.amount.sub(unlocking);
+    const newAmount = lock.amount.sub(unlockingGen2);
     console.log(`${account} unlocks ${totalUnlocking} HDX`);
+    assert(newAmount.eq(currentlyLocked), 'inconsistent locked value in ' + account);
     assert(!newAmount.isNeg(), 'negative locked balance');
     const updatedLock = api.registry.createType('BalanceLock', [
       stakingLock,
