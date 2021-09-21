@@ -43,49 +43,25 @@ async function main() {
   const from = keyring.addFromUri(ACCOUNT_SECRET);
   console.log("sudo account:", hdxAddress(from.addressRaw));
 
-  const currentlyBondedAndUnlocking = async account => {
-    const ledger = await api.query.staking.ledger(account);
-    if (ledger.isSome) {
-      const {active, unlocking} = ledger.unwrap();
-      const totalUnlocking = unlocking.reduce((a, {value}) => value.toBn().add(a), new BN(0));
-      return active.toBn().add(totalUnlocking);
-    } else {
-      return new BN(0);
-    }
-  }
-
   const stakingLock = '0x7374616b696e6720';
 
   const createStorageUpdate = async ({account, gen2: {totalUnlocking}}) => {
     const unlockingGen2 = hdxToBN(totalUnlocking);
-    const [locks, ledger, currentlyLocked] = await Promise.all([
+    const [locks, ledger] = await Promise.all([
       api.query.balances.locks(account),
-      api.query.staking.ledger(account).then(l => l.unwrap()),
-      currentlyBondedAndUnlocking(account)
+      api.query.staking.ledger(account).then(l => l.unwrap())
     ]);
     const lock = locks.find(({id}) => stakingLock === id.toHex());
     assert(lock.amount.eq(ledger.total.toBn()), 'lock and ledger inconsistent');
-    const newAmount = lock.amount.sub(unlockingGen2);
-    console.log(`${account} unlocks ${totalUnlocking} HDX`);
-    assert(newAmount.eq(currentlyLocked), 'inconsistent locked value in ' + account);
-    assert(!newAmount.isNeg(), 'negative locked balance');
-    const updatedLock = api.registry.createType('BalanceLock', [
-      stakingLock,
-      api.registry.createType('Balance', newAmount),
-      lock.reasons
-    ]);
-    const updatedLocks = locks.filter(({id}) => stakingLock !== id.toHex());
-    if (!newAmount.isZero()) {
-      updatedLocks.push(updatedLock);
-    }
+    const gen2unlock = api.registry.createType('UnlockChunk', {value: unlockingGen2, era: new BN(1)});
+    const unlocking = [...ledger.unlocking, gen2unlock];
+    assert(unlocking.reduce((a, {value}) => value.toBn().add(a), new BN(ledger.active.toBn())).eq(ledger.total.toBn()), 'unlocking not consistent with total');
+    const newLedger = api.registry.createType('Option<StakingLedger>', {...ledger, unlocking});
+    console.log(newLedger.toHuman());
     return [
       [
-        api.query.balances.locks.key(account),
-        api.registry.createType('Vec<BalanceLock>', updatedLocks).toHex()
-      ],
-      [
         api.query.staking.ledger.key(account),
-        api.registry.createType('Option<StakingLedger>', {...ledger, total: newAmount}).toHex()
+        newLedger.toHex()
       ]
     ];
   };
