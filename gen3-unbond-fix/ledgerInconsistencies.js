@@ -35,19 +35,32 @@ async function main() {
     }
   }).filter(i => i);
 
-  console.log(`found ${inconsistencies.length} inconsistencies`);
+  console.log(`found ${inconsistencies.length} ledger inconsistencies`, inconsistencies);
 
 
   const I = inconsistencies.map(([account]) => account.toHuman());
   const D = require('./data.json').map(({account}) => account);
+
+  const stakingLock = '0x7374616b696e6720';
+  const inconsistentLocks = (await Promise.all(D.map(async account => {
+    const {amount} = await api.query.balances.locks(account).then(locks => locks.find(({id}) => stakingLock === id.toHex()));
+    const {total} = await api.query.staking.ledger(account).then(l => l.unwrap());
+    return amount.toBn().eq(total.toBn()) ? null : account;
+  }))).filter(i => i);
+
+  if (inconsistentLocks.length) {
+    console.log('found locks inconsistency', inconsistentLocks);
+  } else {
+    console.log('locks are consistent');
+  }
 
   const diff = I.filter(i => !D.includes(i));
 
   if (diff.length === 0 && I.length === D.length) {
     console.log('inconsistencies are consistent with data.json');
   } else {
-    console.log('inconsistencies are not consistsent');
-    console.log(diff);
+    console.log('inconsistencies are not consistent');
+    console.log(I.length, D.length, diff);
   }
   process.exit();
 }
